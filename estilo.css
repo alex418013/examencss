@@ -12,6 +12,7 @@ header{
     background-color: rgb(255, 124, 85);
     color: white;
     text-align: center;
+    text-shadow: red 6px 0;
 }
 nav{
     background-color: #FFFF80;
@@ -45,6 +46,7 @@ p.parrafo1{
     background: url("naranja.png") top left /75px repeat-y ,
     rgb(255, 102, 46) url("naranja.png") top right /75px repeat-y ;
     ;
+    text-decoration: overline;
     border-color:red ;
     color: red;
     border-width: 3px;
