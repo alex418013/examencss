@@ -12,7 +12,8 @@ header{
     background-color: rgb(255, 124, 85);
     color: white;
     text-align: center;
-    text-shadow: red 6px 0;
+    text-shadow: red 6px 0
+    ;
 }
 nav{
     background-color: #FFFF80;
@@ -20,7 +21,8 @@ nav{
     border-color: red;
     border-width: 3px;
     border-style: solid;
-    text-align: center
+    text-align: center;
+    text-shadow: orange 0px 0
     
 }
 table{
