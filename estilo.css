@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* Creado por Alejandro Sánchez Folgado */
+
+
+body{ 
+    font-family: 'Times New Roman', Times, serif
+}
+
+p.parrafo1{
+    width: 35%;
+    height: 25%;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    text-align: left;
+    background-color: #FFFF80;
+    border-color: #D6D643;
+    border-width: 3px;
+        border-style: solid;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+p.esquina2{
+    position: absolute;
+    top: 25%;
+    right: 8%;
+    width: 35%;
+    height: 25%;
+    text-align: right;
+    background-color:#CCFFFF ;
+    border-color:#9FC6C6 ;
+    border-width: 3px;
+    border-style: solid;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+p.centro{
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+    background-color:orangered  ;
+    border-color:red ;
+    border-width: 3px;
+    border-style: solid;
+    padding: 15px;
+    font-size: 1.5rem;
+    z-index: 2;
+}
