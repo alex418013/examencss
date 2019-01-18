@@ -3,51 +3,113 @@
 
 
 body{ 
-    font-family: 'Times New Roman', Times, serif
+    font-family: sans-serif;
+    
+     background-color: rgb(253, 255, 159) 
+}
+header{
+    font-family: cursive;
+    background-color: rgb(255, 124, 85);
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: #FFFF80;
+    color: orange;
+    border-color: red;
+    border-width: 3px;
+    border-style: solid;
+    text-align: center
+    
+}
+table{
+    width: 100%
+
 }
 
+p:hover{
+    z-index: 4;
+}
+p.naranja{
+    padding: 18px;
+    background: url("naranja2.svg") top /18px repeat-x ;
+
+}
 p.parrafo1{
-    width: 35%;
-    height: 25%;
     position: absolute;
-    top: 25%;
-    left: 8%;
+    top: 18%;
+    left: 25%;
+    width: 40%;
+    height: 25%;
+    text-align: center;
+    background: url("naranja.png") top left /75px repeat-y ,
+    rgb(255, 102, 46) url("naranja.png") top right /75px repeat-y ;
+    ;
+    border-color:red ;
+    color: red;
+    border-width: 3px;
+    border-style: solid;
+    padding: 15px;
+    font-size: 20px;
+    z-index: 2;
+    word-spacing: 12px
+}
+
+p.parrafo2{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 40%;
+    height: 25%;
     text-align: left;
     background-color: #FFFF80;
     border-color: #D6D643;
+    color: goldenrod;
     border-width: 3px;
-        border-style: solid;
+    border-style: solid;
     padding: 15px;
-    font-size: 1.5rem;
+    font-size: 18px;
+    letter-spacing: 2px
 }
 
-p.esquina2{
+p.parrafo3{
     position: absolute;
-    top: 25%;
-    right: 8%;
-    width: 35%;
+    top: 40%;
+    right: 5%;
+    width: 40%;
     height: 25%;
     text-align: right;
     background-color:#CCFFFF ;
     border-color:#9FC6C6 ;
+    color: orange;
     border-width: 3px;
     border-style: solid;
     padding: 15px;
-    font-size: 1.5rem;
+    font-size: 16px;
+    
+}
+p.naranjas2{
+    background: url("naranja2.svg") top /30px repeat-x ;
+    position: absolute;
+    bottom: 13%;
+    padding: 30px;
+    width: 100%
+}
+div.lista{
+    position: absolute;
+    bottom: 2.5%;
+background-color: rgb(255, 102, 46);
+color: blue;
+width: 100%
+
 }
 
-p.centro{
-    width: 40%;
-    height: 25%;
+footer{
     position: absolute;
-    top: 40%;
-    left: 30%;
+    bottom: 0%;
+    width: 100%;
     text-align: center;
-    background-color:orangered  ;
-    border-color:red ;
-    border-width: 3px;
-    border-style: solid;
-    padding: 15px;
-    font-size: 1.5rem;
-    z-index: 2;
+    background-color: yellow;
+    color: orange
 }
+
